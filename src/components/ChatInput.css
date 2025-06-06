@@ -1,0 +1,29 @@
+/* ChatInput.css */
+.chat-input-form {
+    display: flex;
+    gap: 8px;
+  }
+  
+  .chat-input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 14px;
+  }
+  
+  .chat-send-btn {
+    padding: 10px 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .chat-send-btn:disabled {
+    background-color: #b0c4de;
+    cursor: not-allowed;
+  }
+  
